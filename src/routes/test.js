@@ -30,7 +30,7 @@ const router = express.Router();
  */
 router.get('/test', (req, res) => {
   res.json({
-    status: 'OK',
+    status: 'OKK',
     uptime: process.uptime(),
     environment: process.env.NODE_ENV || 'development',
   });
